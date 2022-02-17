@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1e2d3b;
+  }
+  
+  
+  
+  /* ----- Header ----- */
+  header {
+    background-color: #2e3a46;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    height: 50px;
+    border-radius: 50%;
+  }
+  /* ----- header ----- */
+  
+  /* ----- main ----- */
+  main {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+  }
+
+  .card {
+    height: 300px;
+    width: 200px;
+    margin: 10px 20px;
+    background-color: #2e3a46;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .poster {
+    width: 160px;
+    margin: 20px 0;
+    height: 160px;
+
+  }
+  
+  strong {
+    color: #fff;
+    text-align: center;
+    width: 160px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .name {
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .name,
+  .date {
+    color: #9c9c9c;
+  }
