@@ -26,6 +26,6 @@
                 </div>
         </main>
     </div>
-    <script src="./vue.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
