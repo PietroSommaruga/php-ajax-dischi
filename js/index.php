@@ -18,7 +18,7 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="spotify logo" class="logo"/>
         </header>
         <main>
-                <div class="card" v-for="disk in discs" :disk="disk">
+                <div class="card" v-for="disk in discs">
                     <img :src="disk.poster" alt="">
                     <strong>{{disk.title}}</strong>
                     <div class="name">{{disk.author}}</div>
