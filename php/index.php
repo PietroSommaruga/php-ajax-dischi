@@ -23,13 +23,9 @@ include __DIR__ . '/database/db.php';
   <main>
     <?php
       foreach ($db as $disc) {
-    ?>
-      
-    <?php 
+    
     include __DIR__ . '/card/card.php';
-    ?>
-      
-    <?php
+    
       }
     ?>
  </main>

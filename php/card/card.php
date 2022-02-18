@@ -1,8 +1,4 @@
-<?php 
 
-include __DIR__ . '/database/db.php';
-
-?>
 
 
     <div class="card">
